@@ -13,8 +13,7 @@ DATUM_LENGTH = 6
 
 headers = []
 for col in range(0, int(args.columns)):
-    rand = ''.join(random.choice(string.ascii_lowercase) for _ in range(DATUM_LENGTH))
-    headers.append('Header-' + rand)
+    headers.append('Header-' + col)
 
 output = csv.writer(open(args.filename, 'wb'))
 output.writerow(headers)
