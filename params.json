@@ -1,0 +1,6 @@
+{
+  "name": "Csv-generator",
+  "tagline": "Generates random CSV data",
+  "body": "A script to generate random data in CSV format.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
