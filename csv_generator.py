@@ -13,7 +13,7 @@ DATUM_LENGTH = 6
 
 headers = []
 for col in range(0, int(args.columns)):
-    headers.append('Header-' + col)
+    headers.append('Header-' + str(col))
 
 output = csv.writer(open(args.filename, 'wb'))
 output.writerow(headers)
